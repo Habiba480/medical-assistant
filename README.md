@@ -22,7 +22,22 @@
   Combines semantic similarity and symptom pattern recognition to improve relevance of medical suggestions.
 
 ---
-
+##  Project Structure
+```
+Medical Assistant/
+│
+├── app.py                      # Main Streamlit app
+├── requirements.txt            # Dependencies
+├── README.md                   # Project description
+│
+└── src/
+    ├── __init__.py             # (optional) make src importable
+    ├── constants.py            # Prompts, config values
+    ├── chat_state.py           # Chat session management
+    ├── llm_client.py           # Handles requests to the LLM API
+    ├── ui.py                   # Sidebar + chat rendering
+                 # Sidebar + chat rendering
+```
 ## Technologies Used
 
 - Python 3.8+
