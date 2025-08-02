@@ -1,4 +1,4 @@
-# Enhanced Medical Assistant
+#  Medical Assistant Chatbot
 
 ** Medical Assistant** is an intelligent, interactive healthcare chatbot built with Streamlit and powered by advanced Retrieval-Augmented Generation (RAG) techniques. It helps users understand their symptoms, assess possible medical conditions, and receive reliable health guidance based on a structured and enriched knowledge base.
 
